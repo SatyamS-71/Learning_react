@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* overflow-x: hidden; */
+}
+
+/* Laptop */
+@media (min-width: 769px) and (max-width: 992px) {
+  .sider-collapsed {
+    margin-left: 12vw;
+  }
+  .sider-not-collapsed {
+    margin-left: 35vw;
+  }
+}
+
+/* PCs Computer*/
+@media (min-width: 993px) and (max-width: 1200px) {
+  .sider-collapsed {
+    margin-left: 12vw;
+  }
+  .sider-not-collapsed {
+    margin-left: 25vw;
+  }
+}
+/* Larger screen devices */
+@media (min-width: 1200px) {
+  .sider-collapsed {
+    margin-left: 12vw;
+  }
+  .sider-not-collapsed {
+    margin-left: 25vw;
+  }
+}
+/* Mobile  */
+@media (max-width: 576px) {
+}
